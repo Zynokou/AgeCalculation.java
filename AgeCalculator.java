@@ -24,5 +24,8 @@ public class AgeCalculator{
         //Display of results
         System.out.println("Hello " + name + ".");
         System.out.println("You are " + age + " years old this year");
+
+        //Closing the scanner
+        sc.close();
     }
 }
